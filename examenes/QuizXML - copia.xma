@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE quiz SYSTEM "QuizXML.dtd">
+<?xml-stylesheet type="text/xsl" href="QuizXML.xsl"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>Course XML</text>
+    </category>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>EspacioNombres</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Dado el siguiente fichero:</p>
+<pre>&lt;prueba xmlns="http://n1.org" <br />             xmlns:aa="http://n2.org"<br />   &lt;aa xmlns="http://n3.org" <br />          xmlns:bb="http://n4.org"&gt;<br />     Hola<br />  &lt;/aa&gt;<br />&lt;/prueba&gt;<br /><br />¿Cuál es el espacio de nombres al que corresponde el elemento aa ?</pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>http://n1.org</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>http://n2.org</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>http://n3.org</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>http://n4.org</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 121963  -->
+  <question type="multichoice">
+    <name>
+      <text>preguntaXMLValido</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué significa que un documento XML sea válido?</p>
+<p> </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>Que todas las etiquetas que se abren, se cierran</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Ésa es una condición para que esté bien formado.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Que su contenido encaja con la declaración de tipo o esquema</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Un documento es válido cuando su contenido o estructura encajan con la declaración de tipo de documento ó el esquema</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>Que no contiene acentos</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Los documentos XML pueden contener cualquier carácter dependiendo de la codificación. En general, mediante la codificación UTF-8 pueden incluirse cualquier tipo de carácter Unicode.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<p>Que contiene una declaración de tipo de documento</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Que contenga una declaración de tipo de documento no implica que la cumpla. La condición para que sea válido es que además de incluir la declaración de tipo de documento, la cumpla.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 121965  -->
+  <question type="multichoice">
+    <name>
+      <text>PreguntaXPath</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Dado el siguien fichero XML</p>
+<pre>&lt;alumnos&gt;<br />&lt;alumno nombre="Jose" nota="5.5" /&gt;<br />&lt;alumno nombre="Luis" nota="7.5" /&gt;<br />&lt;alumno nombre="Ana" nota="8" /&gt;<br />&lt;alumno nombre="Juan" nota="9.5" /&gt;<br />&lt;alumno nombre="Arturo" nota="9" /&gt;<br />&lt;alumno nombre="Mario" nota="2" /&gt;<br />&lt;/alumnos&gt;</pre>
+<p>¿Cuál de las siguientes expresiones permite seleccionar los alumnos cuyo nombre empieza por A?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text></text>
+    </incorrectfeedback>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<pre>/alumno/alumnos/@nombre['A']</pre>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<pre>//alumno[starts-with(@nombre,'A')]</pre>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<pre>//alumno[@nombre(starts-with('A'))]</pre>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[<pre>//alumno[starts-with(nombre,'A')]</pre>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz><!-- Stylus Studio meta-information - (c) 2004-2009. Progress Software Corporation. All rights reserved.
+
+<metaInformation>
+	<scenarios>
+		<scenario default="yes" name="Scenario1" userelativepaths="yes" externalpreview="no" url="" htmlbaseurl="" outputurl="" processortype="saxon8" useresolver="yes" profilemode="0" profiledepth="" profilelength="" urlprofilexml="" commandline=""
+		          additionalpath="" additionalclasspath="" postprocessortype="none" postprocesscommandline="" postprocessadditionalpath="" postprocessgeneratedext="" validateoutput="no" validator="internal" customvalidator="">
+			<advancedProp name="sInitialMode" value=""/>
+			<advancedProp name="bXsltOneIsOkay" value="true"/>
+			<advancedProp name="bSchemaAware" value="true"/>
+			<advancedProp name="bGenerateByteCode" value="true"/>
+			<advancedProp name="bXml11" value="false"/>
+			<advancedProp name="iValidation" value="0"/>
+			<advancedProp name="bExtensions" value="true"/>
+			<advancedProp name="iWhitespace" value="0"/>
+			<advancedProp name="sInitialTemplate" value=""/>
+			<advancedProp name="bTinyTree" value="true"/>
+			<advancedProp name="xsltVersion" value="2.0"/>
+			<advancedProp name="bWarnings" value="true"/>
+			<advancedProp name="bUseDTD" value="false"/>
+			<advancedProp name="iErrorHandling" value="fatal"/>
+		</scenario>
+	</scenarios>
+	<MapperMetaTag>
+		<MapperInfo srcSchemaPathIsRelative="yes" srcSchemaInterpretAsXML="no" destSchemaPath="" destSchemaRoot="" destSchemaPathIsRelative="yes" destSchemaInterpretAsXML="no"/>
+		<MapperBlockPosition></MapperBlockPosition>
+		<TemplateContext></TemplateContext>
+		<MapperFilter side="source"></MapperFilter>
+	</MapperMetaTag>
+</metaInformation>
+-->
